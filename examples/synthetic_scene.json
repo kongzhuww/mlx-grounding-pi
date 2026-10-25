@@ -1,0 +1,8 @@
+{
+  "image": "synthetic_scene.png",
+  "phrase": "the center of the red square",
+  "image_size": [448, 448],
+  "center_pixels": [120, 224],
+  "tolerance_pixels": 30,
+  "description": "A red square on the left and a blue circle on the right, on a light background. Procedurally created in this project; no external image rights."
+}

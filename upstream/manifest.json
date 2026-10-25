@@ -1,0 +1,134 @@
+{
+  "hf_revision": "08d397c8769f7f10b96ff6d56ee6f56acb04181f",
+  "github_revision": "090932430bbbeea004cfa461767ede7f563c0f3a",
+  "files": [
+    {
+      "path": "upstream/hf/config.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/config.json",
+      "sha256": "f1b10db719ed14ffa02e64c67c901cb93fe5d877b77ac71434cf46ff14b65470"
+    },
+    {
+      "path": "upstream/hf/configuration_groundingpi.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/configuration_groundingpi.py",
+      "sha256": "de81b544a86d51a26a9e09a0eafb56349c373dacb23bdb10509faa5c41569023"
+    },
+    {
+      "path": "upstream/hf/configuration_groundingpi_vision.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/configuration_groundingpi_vision.py",
+      "sha256": "4fa29a5a982457148db6852c3bd854a3ff67a0b22a0ebf9350e72b6e789c17b2"
+    },
+    {
+      "path": "upstream/hf/modeling_groundingpi.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/modeling_groundingpi.py",
+      "sha256": "438f668a62a346e1ccc0557da64c18814a1b04dd52e77245266b0394b8270056"
+    },
+    {
+      "path": "upstream/hf/modeling_groundingpi_vision.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/modeling_groundingpi_vision.py",
+      "sha256": "bbd7773a5d0b853d9754448997d439cfc27d1f82e1b5e3d70f2c50141680d5ea"
+    },
+    {
+      "path": "upstream/hf/image_processing_groundingpi.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/image_processing_groundingpi.py",
+      "sha256": "69135847062e5c691e3da34c93312333cceb7d509805b977d4bb0720a8a19d72"
+    },
+    {
+      "path": "upstream/hf/processing_groundingpi.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/processing_groundingpi.py",
+      "sha256": "38fa01325e39694ee3d5c385128c92e19caee207246bd9a7833e72f701e322c7"
+    },
+    {
+      "path": "upstream/hf/media_utils.py",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/media_utils.py",
+      "sha256": "78403540328f9847d6b7ebc5c44eb2e6a752863de0afb7d0710728bb161dc60d"
+    },
+    {
+      "path": "upstream/hf/preprocessor_config.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/preprocessor_config.json",
+      "sha256": "698281f168aaad15a07d62ec3e174d32c0e95e904da0917c115ba5cc5035673e"
+    },
+    {
+      "path": "upstream/hf/tokenizer_config.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/tokenizer_config.json",
+      "sha256": "d9089e4621f850e727a86c64110730d10feb459a9532e8bd8b77c8303d417bd3"
+    },
+    {
+      "path": "upstream/hf/added_tokens.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/added_tokens.json",
+      "sha256": "7316e325dde0dd407bcc80ed5d3d080223e54572a4685b2aa1ee52041e41d466"
+    },
+    {
+      "path": "upstream/hf/special_tokens_map.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/special_tokens_map.json",
+      "sha256": "8d9ceecd9136834e5f55184b2a3f58ea1047f9b27f0d23fb29bcad50257b006d"
+    },
+    {
+      "path": "upstream/hf/chat_template.jinja",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/chat_template.jinja",
+      "sha256": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb"
+    },
+    {
+      "path": "upstream/hf/model.safetensors.index.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/model.safetensors.index.json",
+      "sha256": "c7845f2a74a6c57a6e58e71c963344446d777601767dc8e81259dbd3b63686f7"
+    },
+    {
+      "path": "upstream/hf/LICENSE",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/LICENSE",
+      "sha256": "c419c191a33774f4e1f834b3fb36033dc84e8ba316a3d1935eed1fa529884a74"
+    },
+    {
+      "path": "upstream/hf/LICENSE-Apache-2.0",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/LICENSE-Apache-2.0",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "upstream/hf/LICENSE-Kimi-K3",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/LICENSE-Kimi-K3",
+      "sha256": "20c797ce19af0c17de52c6afb144644768a591c521655f5ebf5712c9850f2887"
+    },
+    {
+      "path": "upstream/github/grounding_pi/protocol.py",
+      "url": "https://raw.githubusercontent.com/groundingpi/GroundingPI/090932430bbbeea004cfa461767ede7f563c0f3a/grounding_pi/protocol.py",
+      "sha256": "5d1aff73c4a0accd7374404223b56f4a4ea8253dc1f4a9bbce79f2f043ba3dd8"
+    },
+    {
+      "path": "upstream/github/grounding_pi/client.py",
+      "url": "https://raw.githubusercontent.com/groundingpi/GroundingPI/090932430bbbeea004cfa461767ede7f563c0f3a/grounding_pi/client.py",
+      "sha256": "3a46a71a310a3f92df1feca4a784ee235920ad2a302b2404aea5e06818347221"
+    },
+    {
+      "path": "upstream/github/README.md",
+      "url": "https://raw.githubusercontent.com/groundingpi/GroundingPI/090932430bbbeea004cfa461767ede7f563c0f3a/README.md",
+      "sha256": "3fd989aefabf97274364c5f2677250e11ac91a35adae001e862dd1a550c8f004"
+    },
+    {
+      "path": "upstream/github/THIRD_PARTY_NOTICES.md",
+      "url": "https://raw.githubusercontent.com/groundingpi/GroundingPI/090932430bbbeea004cfa461767ede7f563c0f3a/THIRD_PARTY_NOTICES.md",
+      "sha256": "25ca97a2e085c8810cbcd6fc8c341cd5ae8a9ef6862f4ba68141d7be61bc59e1"
+    },
+    {
+      "path": "upstream/github/LICENSE",
+      "url": "https://raw.githubusercontent.com/groundingpi/GroundingPI/090932430bbbeea004cfa461767ede7f563c0f3a/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "upstream/hf/checksums.sha256",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/checksums.sha256",
+      "kind": "original-file",
+      "sha256": "b431fd81fd7986dc5ccd999879e8000d7ebc889a48f0d7f14e48237890b44e0c"
+    },
+    {
+      "path": "upstream/headers/model-00001-of-00002.safetensors.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/model-00001-of-00002.safetensors",
+      "kind": "extracted-safetensors-header-json",
+      "sha256": "ba01560970c0b1861785ceeff5da55beac0cd5d74a2a8d7d4b46419d0490ff01"
+    },
+    {
+      "path": "upstream/headers/model-00002-of-00002.safetensors.json",
+      "url": "https://huggingface.co/GroundingPI/GroundingPI/resolve/08d397c8769f7f10b96ff6d56ee6f56acb04181f/model-00002-of-00002.safetensors",
+      "kind": "extracted-safetensors-header-json",
+      "sha256": "4af5a077c555cb24fcc0474d78b53955df890af81737b419feba4f35e19f5873"
+    }
+  ]
+}

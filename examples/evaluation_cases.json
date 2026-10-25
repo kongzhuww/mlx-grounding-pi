@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "description": "Small development smoke suite, not a standard benchmark. Only synthetic geometry has exact ground truth; photographs require visual review.",
+  "assets": [
+    {
+      "path": "../outputs/evaluation-inputs/coco-cats.png",
+      "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/coco_sample.png",
+      "sha256": "cf6f3c4befa148732c7453e0de5afab00f682427435fead2d88b07a9615cdac2",
+      "note": "Public documentation sample, two cats on a couch. Source image retained locally only; no benchmark annotations claimed."
+    },
+    {
+      "path": "../outputs/evaluation-inputs/dog.jpg",
+      "url": "https://raw.githubusercontent.com/pytorch/hub/master/images/dog.jpg",
+      "sha256": "f3f87bb8ab3c26c7ecfd3ac60421d7f32b0503d1d6c5baf8bac42ed93d86351a",
+      "note": "Public PyTorch Hub documentation sample. Source image retained locally only; no benchmark annotations claimed."
+    }
+  ],
+  "cases": [
+    {"id": "red-center", "image": "synthetic_scene.png", "task": "point", "phrase": "the center of the red square", "expected": {"points": [[120, 224]], "max_distance_pixels": 30}},
+    {"id": "blue-center", "image": "synthetic_scene.png", "task": "point", "phrase": "the center of the blue circle", "expected": {"points": [[340, 224]], "max_distance_pixels": 30}},
+    {"id": "red-box", "image": "synthetic_scene.png", "task": "bbox", "phrase": "the red square", "expected": {"boxes": [[60, 164, 180, 284]], "min_iou": 0.7}},
+    {"id": "blue-box", "image": "synthetic_scene.png", "task": "bbox", "phrase": "the blue circle", "expected": {"boxes": [[280, 164, 400, 284]], "min_iou": 0.7}},
+    {"id": "absent-triangle", "image": "synthetic_scene.png", "task": "point", "phrase": "the yellow triangle", "expected": {"absent": true}},
+    {"id": "two-red-boxes", "image": "multiple_shapes.png", "task": "bbox", "prompt": "Locate all the instances that match the following categories: red square.", "expected": {"boxes": [[40, 64, 140, 164], [280, 284, 400, 404]], "min_iou": 0.7}},
+    {"id": "photo-left-cat-box", "image": "../outputs/evaluation-inputs/coco-cats.png", "task": "bbox", "phrase": "the cat on the left", "expected": null},
+    {"id": "photo-right-cat-point", "image": "../outputs/evaluation-inputs/coco-cats.png", "task": "point", "phrase": "the center of the cat on the right", "expected": null},
+    {"id": "photo-dog-box", "image": "../outputs/evaluation-inputs/dog.jpg", "task": "bbox", "phrase": "the dog", "expected": null},
+    {"id": "photo-dog-nose", "image": "../outputs/evaluation-inputs/dog.jpg", "task": "point", "phrase": "the center of the dog's nose", "expected": null}
+  ]
+}

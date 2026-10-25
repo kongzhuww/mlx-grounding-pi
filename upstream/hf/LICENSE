@@ -1,0 +1,21 @@
+License scope
+=============
+
+Original contributions by the GroundingPI and GroundAnything authors are
+licensed under the Apache License, Version 2.0, provided in LICENSE-Apache-2.0.
+The project imposes no additional use or commercial restrictions on those
+contributions beyond that license.
+
+This grant covers only rights held by the contributing authors. It does not
+relicense third-party material or waive any upstream requirements.
+
+Kimi-derived material remains subject to the Kimi K3 License, reproduced
+unchanged in LICENSE-Kimi-K3. Its conditions, including conditions that apply
+to derivative works, continue to apply to the combined model package where
+applicable. Apache 2.0 is not an alternative license for that material.
+
+Other third-party components retain their own licenses and copyright notices.
+Preserve the applicable license texts and notices when redistributing.
+
+Upstream Kimi K3 license source:
+https://huggingface.co/moonshotai/Kimi-K3/blob/f831ab66814297da540d832a5235f8e904f29d06/LICENSE

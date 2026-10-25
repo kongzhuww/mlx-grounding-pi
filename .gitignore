@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.egg-info/
+build/
+dist/
+models/
+weights/
+outputs/
+*.safetensors
+*.npz
+
+# Credentials and machine-local state must never enter a public commit.
+.env
+.env.*
+!.env.example
+.modal.toml
+*.pem
+*.key
+*.log

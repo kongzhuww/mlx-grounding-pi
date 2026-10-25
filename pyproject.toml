@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mlx-grounding-pi"
+version = "0.1.0"
+description = "Work-in-progress Apple MLX port of GroundingPI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2", "Pillow>=11", "safetensors>=0.6", "transformers>=5.7",
+    "huggingface-hub>=1",
+    "mlx>=0.32.4; sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "mlx-lm>=0.32.2; sys_platform == 'darwin' and platform_machine == 'arm64'",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.12"]
+reference = [
+    "torch>=2.9",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["mlx_grounding_pi"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+exclude = ["upstream", "mlx_grounding_pi/_vendor"]
