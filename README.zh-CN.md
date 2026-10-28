@@ -1,5 +1,10 @@
 # mlx-grounding-pi
 
+<p align="left">
+  <a href="https://github.com/kongzhuww/mlx-grounding-pi/actions/workflows/ci.yml"><img src="https://github.com/kongzhuww/mlx-grounding-pi/actions/workflows/ci.yml/badge.svg" alt="CI 状态"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
+</p>
+
 > 基于 Apple MLX 的 [GroundingPI](https://huggingface.co/GroundingPI/GroundingPI) 实验性原生移植版本。
 
 [English](README.md) | **简体中文**
