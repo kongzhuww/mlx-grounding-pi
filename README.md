@@ -1,5 +1,7 @@
 # mlx-grounding-pi
 
+**English** | [简体中文](README_zh.md)
+
 Experimental native Apple MLX port of [GroundingPI](https://huggingface.co/GroundingPI/GroundingPI).
 The short-term goal is local **image + instruction -> points/boxes** on Apple Silicon.
 No robot hardware, camera calibration or actuation is involved.
